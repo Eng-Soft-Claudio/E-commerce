@@ -1,0 +1,16 @@
+{
+    "name": "APP",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "api",
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "charliermarsh.ruff" 
+            ]
+        }
+    },
+    "forwardPorts": [8000]
+}

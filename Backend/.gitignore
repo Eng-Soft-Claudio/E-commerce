@@ -1,0 +1,35 @@
+# ========================================================================== #
+#                              GITIGNORE                                     #
+# ========================================================================== #
+
+# Arquivos de Banco de Dados de Desenvolvimento
+# Nunca versione o arquivo de DB diretamente. A estrutura deve ser
+# replicada a partir dos modelos.
+minha_api.db
+*.sqlite
+*.sqlite3
+
+# Cache e artefatos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes Virtuais (boa prática, mesmo usando Docker)
+.env
+.venv
+env/
+venv/
+ENV/
+Scripts/
+bin/
+lib/
+include/
+
+# Arquivos de configuração específicos de IDEs e editores
+.vscode/
+.idea/
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
